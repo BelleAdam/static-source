@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LKQSkin" states="left,right" width="448" height="360" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="160d896bc3d" ></w:Config>
+	<e:Image id="lkq1" width="448" x="0" includeIn="left" height="360" y="0" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+	<e:Image id="lkq2" width="448" x="0" includeIn="right" height="356" y="4" fillMode="scale" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+</e:Skin>

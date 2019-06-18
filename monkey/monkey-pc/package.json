@@ -1,0 +1,31 @@
+{
+  "name": "monkey-pc",
+  "version": "1.0.0",
+  "description": "monkey pc",
+  "main": "index.js",
+  "scripts": {
+    "check": "fe-check --env --directory",
+    "dev": "npm run check && fe-build --d",
+    "prod": "npm run check && fe-build --p",
+    "upload": "fe-build --u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cjl-sky/static-source.git"
+  },
+  "author": "chenjialin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-polyfill": "^6.26.0",
+    "croppie": "^2.6.2",
+    "exif-js": "^2.3.0",
+    "fe-core": "git+ssh://git@github.com:cjl-sky/fe-core.git",
+    "jquery": "^3.2.1",
+    "node-core": "git+ssh://git@github.com:cjl-sky/node-core.git",
+    "node.extend": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.6.tgz",
+    "normalize.css": "^6.0.0",
+    "path": "^0.12.7",
+    "simditor": "^2.3.23"
+  }
+}

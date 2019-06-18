@@ -1,0 +1,7 @@
+.scss-assets-demo {
+  width: 200px;
+  height: 200px;
+  background: assetsURL('img/avatar.png') no-repeat;
+  background-size: contain;
+  z-index: $zindex-fixed;
+}

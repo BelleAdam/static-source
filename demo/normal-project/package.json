@@ -1,0 +1,27 @@
+{
+  "name": "normal-project-demo",
+  "version": "1.0.0",
+  "description": "normal-project-demo",
+  "main": "index.js",
+  "scripts": {
+    "check": "fe-check --env --directory",
+    "dev": "npm run check && fe-build --d",
+    "prod": "npm run check && fe-build --p",
+    "upload": "fe-build --u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cjl-sky/static-source.git"
+  },
+  "author": "chenjialin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-polyfill": "^6.26.0",
+    "fe-core": "git+ssh://git@172.16.50.195/buycoor/fe-core.git",
+    "jquery": "^3.2.1",
+    "node.extend": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.6.tgz",
+    "normalize.css": "^6.0.0",
+    "path": "^0.12.7"
+  }
+}

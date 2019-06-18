@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ModalDialogSkin" states="pause,play" currentState="pause" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="160dec6bfc4" ></w:Config>
+	<e:Rect id="mdBg" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.75"/>
+	<e:Group id="mdMain" horizontalCenter="0" verticalCenter="0" width="637" height="991" x="20.5" y="107.5">
+		<e:Image id="mdMainBg" width="637" height="991" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Rect id="closeBtn" width="80" height="40" x="500" y="5" alpha="0.01"></e:Rect>
+		<e:Scroller id="dialogScroller" width="600" height="940" x="35" y="48">
+			<e:Group width="600" height="940" x="0" y="0">
+				<e:Group id="dialogGroup" width="562" x="0" y="0">
+					<e:Group width="562" x="0" y="0">
+						<e:Image id="questionIcon" width="50" height="59" x="15" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
+						<e:Group id="questionHeader" width="380" x="80" y="30">
+							<e:Image id="questionHeaderBg" width="380" height="33" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0"/>
+							<e:Label id="questionHeaderTxt" text="中央人民广播电台记者" width="300" height="30" x="30" y="-10"/>
+						</e:Group>
+						<e:Group id="questionGroup" width="548" x="0" y="80">
+							<e:Image id="questionTxtBg" x="0" y="0" right="0" horizontalCenter="0" left="0" top="0" verticalCenter="0" bottom="0"/>
+							<e:Label id="questionTxt" x="20" y="20" top="25" bottom="25" width="512" text="{text1}" textColor="0xc27b54"/>
+						</e:Group>
+						<e:Group id="lkqMusic" width="232" height="57" x="330" y="-60">
+							<e:Group width="24" height="25" x="5" y="21">
+								<e:Rect id="rect1" width="4" height="12" x="0" y="13" fillColor="0x946a4a"/>
+								<e:Rect id="rect2" width="4" height="25" x="10" y="0" fillColor="0x946a4a"/>
+								<e:Rect id="rect3" width="4" height="18" x="20" y="7" fillColor="0x946a4a"/>
+							</e:Group>
+							<e:Image id="lkqMusicTxt" width="121" height="34" x="40" y="12"/>
+							<e:Group id="lkqMusicIcon" width="57" height="57">
+								<e:Group x="175" y="0">
+									<e:Image id="musicIconPlay" includeIn="pause" width="57" height="57"/>
+									<e:Image id="musicIconPause" includeIn="play" width="57" height="57"/>
+								</e:Group>
+							</e:Group>
+						</e:Group>
+					</e:Group>
+					<e:Group width="562">
+						<e:Image id="answerIcon" width="205" height="260" x="-10" y="-16" anchorOffsetX="0" anchorOffsetY="0"/>
+						<e:Group id="answerHeader" width="230" height="33" x="210" y="60">
+							<e:Image id="answerHeaderBg" width="230" height="33" />
+							<e:Label id="answerHeaderTxt" text="李克强总理" x="30" y="-10" textColor="0xc27b54" />
+						</e:Group>
+						<e:Group id="answerGroup" width="548" x="0" y="115">
+							<e:Image id="answerTxtBg" x="0" y="0" right="0" horizontalCenter="0" left="0" top="0" verticalCenter="0" bottom="0"/>
+							<e:Label id="answerTxt" x="20" y="20" top="25" bottom="25" width="512" textColor="0xc27b54" text="中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者中央人民广播电台记者">
+							</e:Label>
+						</e:Group>
+					</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:verticalScrollBar x="574" y="50" width="26" height="860">
+			</e:verticalScrollBar>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>
