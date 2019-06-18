@@ -1,0 +1,37 @@
+{
+  "name": "static-source",
+  "version": "1.0.0",
+  "description": "static source code",
+  "main": "index.js",
+  "scripts": {
+    "check": "fe-check --git-branch --git-tag",
+    "prepush": "npm run check",
+    "test": "npm run check && fe-lint --localdiff --nocommonjs --noamd",
+    "ci-test": "npm run check && fe-lint --commitdiff --nocommonjs --noamd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:cjl-sky/fe-lint.git"
+  },
+  "author": "chenjialin",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "husky": "^0.14.3"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "fe-core": "git+ssh://git@github.com:cjl-sky/fe-core.git",
+    "lowdb": "^1.0.0",
+    "moment": "^2.20.1",
+    "node-core": "git+ssh://git@github.com:cjl-sky/node-core.git",
+    "node.extend": "^2.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "shelljs": "^0.7.8",
+    "vant": "^1.1.0",
+    "vconsole": "^3.3.0",
+    "vue": "^2.5.16",
+    "vue-i18n": "^8.0.0",
+    "yargs": "^8.0.1"
+  }
+}

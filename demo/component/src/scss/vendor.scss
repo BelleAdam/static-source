@@ -1,0 +1,11 @@
+@import "normalize.css";
+@import "vendor/*";
+
+// HTML 节点的 class 属性有 spectre 才会使用 spectre.css 这个前端框架
+.spectre {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+    @import '~spectre.css';
+}

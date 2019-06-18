@@ -1,0 +1,4 @@
+{
+  "files": ["**/src/**/*.js", "**/src/**/*.vue", "**/src/**/*.scss"],
+  "diff-ignore-reg": "(.*)/demo/h5/(.*)"
+}

@@ -1,0 +1,42 @@
+cache:
+  untracked: false # If Cache all Git untracked files:
+  key: '$CI_BUILD_REF_NAME'
+  paths:
+    - node_modules/
+
+stages:
+  - install
+  - deploy
+  - check_lint
+  # - build
+
+# 安装依赖并测试（合并 npm_install 与 npm_test 流程，加快 CI 速度）
+npm_install:
+  stage: install
+  script:
+    - ssh-keyscan -t rsa 172.16.50.195 >> ~/.ssh/known_hosts
+    - npm install
+  except:
+    - tags
+
+# 自动部署
+auto_deploy:
+  stage: deploy
+  script:
+    - node auto-deploy.js --currentBranch=$CI_BUILD_REF_NAME
+  except:
+    - tags
+
+auto_check_lint:
+  stage: check_lint
+  script:
+    - npm run ci-test -- --currentBranch=$CI_BUILD_REF_NAME --lintLogJSONPath=/root/log/static-source/
+  except:
+    - tags
+# 自动构建
+# server_build:
+#   stage: build
+#   script:
+#     - node build.js --currentBranch=$CI_BUILD_REF_NAME
+#   except:
+#     - tags

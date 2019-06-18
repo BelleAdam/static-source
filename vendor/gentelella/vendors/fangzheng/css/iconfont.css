@@ -1,0 +1,701 @@
+@font-face {
+  font-family: "fzbiaoysjw-font";
+  src: url("../font/fzbiaoysjw.ttf") format("truetype");
+}
+
+.fzbiaoysjw {
+  font-family: 'fzbiaoysjw-font'
+}
+
+@font-face {
+  font-family: "fzbsjw-font";
+  src: url("../font/fzbsjw.ttf") format("truetype");
+}
+
+.fzbsjw {
+  font-family: 'fzbsjw-font'
+}
+
+@font-face {
+  font-family: "fzbysjw-font";
+  src: url("../font/fzbysjw.ttf") format("truetype");
+}
+
+.fzbysjw {
+  font-family: 'fzbysjw-font'
+}
+
+@font-face {
+  font-family: "fzcdxjw-font";
+  src: url("../font/fzcdxjw.ttf") format("truetype");
+}
+
+.fzcdxjw {
+  font-family: 'fzcdxjw-font'
+}
+
+@font-face {
+  font-family: "fzcthjw-font";
+  src: url("../font/fzcthjw.ttf") format("truetype");
+}
+
+.fzcthjw {
+  font-family: 'fzcthjw-font'
+}
+
+@font-face {
+  font-family: "fzcysjw-font";
+  src: url("../font/fzcysjw.ttf") format("truetype");
+}
+
+.fzcysjw {
+  font-family: 'fzcysjw-font'
+}
+
+@font-face {
+  font-family: "fzdhtjw-font";
+  src: url("../font/fzdhtjw.ttf") format("truetype");
+}
+
+.fzdhtjw {
+  font-family: 'fzdhtjw-font'
+}
+
+@font-face {
+  font-family: "fzfmjw-font";
+  src: url("../font/fzfmjw.ttf") format("truetype");
+}
+
+.fzfmjw {
+  font-family: 'fzfmjw-font'
+}
+
+@font-face {
+  font-family: "fzheiljw_cu-font";
+  src: url("../font/fzheiljw_cu.ttf") format("truetype");
+}
+
+.fzheiljw_cu {
+  font-family: 'fzheiljw_cu-font'
+}
+
+@font-face {
+  font-family: "fzheiljw_xian-font";
+  src: url("../font/fzheiljw_xian.ttf") format("truetype");
+}
+
+.fzheiljw_xian {
+  font-family: 'fzheiljw_xian-font'
+}
+
+@font-face {
+  font-family: "fzheiljw_zhun-font";
+  src: url("../font/fzheiljw_zhun.ttf") format("truetype");
+}
+
+.fzheiljw_zhun {
+  font-family: 'fzheiljw_zhun-font'
+}
+
+@font-face {
+  font-family: "fzhljw-font";
+  src: url("../font/fzhljw.ttf") format("truetype");
+}
+
+.fzhljw {
+  font-family: 'fzhljw-font'
+}
+
+@font-face {
+  font-family: "fzhzgbjw-font";
+  src: url("../font/fzhzgbjw.ttf") format("truetype");
+}
+
+.fzhzgbjw {
+  font-family: 'fzhzgbjw-font'
+}
+
+@font-face {
+  font-family: "fzjtjw-font";
+  src: url("../font/fzjtjw.ttf") format("truetype");
+}
+
+.fzjtjw {
+  font-family: 'fzjtjw-font'
+}
+
+@font-face {
+  font-family: "fzjunhjw_xian-font";
+  src: url("../font/fzjunhjw_xian.ttf") format("truetype");
+}
+
+.fzjunhjw_xian {
+  font-family: 'fzjunhjw_xian-font'
+}
+
+@font-face {
+  font-family: "fzjunhjw_zhong-font";
+  src: url("../font/fzjunhjw_zhong.ttf") format("truetype");
+}
+
+.fzjunhjw_zhong {
+  font-family: 'fzjunhjw_zhong-font'
+}
+
+@font-face {
+  font-family: "fzjunhjw_zhun-font";
+  src: url("../font/fzjunhjw_zhun.ttf") format("truetype");
+}
+
+.fzjunhjw_zhun {
+  font-family: 'fzjunhjw_zhun-font'
+}
+
+@font-face {
+  font-family: "fzjzjw-font";
+  src: url("../font/fzjzjw.ttf") format("truetype");
+}
+
+.fzjzjw {
+  font-family: 'fzjzjw-font'
+}
+
+@font-face {
+  font-family: "fzlantyjw_cu-font";
+  src: url("../font/fzlantyjw_cu.ttf") format("truetype");
+}
+
+.fzlantyjw_cu {
+  font-family: 'fzlantyjw_cu-font'
+}
+
+@font-face {
+  font-family: "fzlantyjw_da-font";
+  src: url("../font/fzlantyjw_da.ttf") format("truetype");
+}
+
+.fzlantyjw_da {
+  font-family: 'fzlantyjw_da-font'
+}
+
+@font-face {
+  font-family: "fzlantyjw_te-font";
+  src: url("../font/fzlantyjw_te.ttf") format("truetype");
+}
+
+.fzlantyjw_te {
+  font-family: 'fzlantyjw_te-font'
+}
+
+@font-face {
+  font-family: "fzlantyjw_xi-font";
+  src: url("../font/fzlantyjw_xi.ttf") format("truetype");
+}
+
+.fzlantyjw_xi {
+  font-family: 'fzlantyjw_xi-font'
+}
+
+@font-face {
+  font-family: "fzlantyjw_xian-font";
+  src: url("../font/fzlantyjw_xian.ttf") format("truetype");
+}
+
+.fzlantyjw_xian {
+  font-family: 'fzlantyjw_xian-font'
+}
+
+@font-face {
+  font-family: "fzlantyjw_zhong-font";
+  src: url("../font/fzlantyjw_zhong.ttf") format("truetype");
+}
+
+.fzlantyjw_zhong {
+  font-family: 'fzlantyjw_zhong-font'
+}
+
+@font-face {
+  font-family: "fzltchjw-font";
+  src: url("../font/fzltchjw.ttf") format("truetype");
+}
+
+.fzltchjw {
+  font-family: 'fzltchjw-font'
+}
+
+@font-face {
+  font-family: "fzltcxhjw-font";
+  src: url("../font/fzltcxhjw.ttf") format("truetype");
+}
+
+.fzltcxhjw {
+  font-family: 'fzltcxhjw-font'
+}
+
+@font-face {
+  font-family: "fzltdhjw-font";
+  src: url("../font/fzltdhjw.ttf") format("truetype");
+}
+
+.fzltdhjw {
+  font-family: 'fzltdhjw-font'
+}
+
+@font-face {
+  font-family: "fzlthjw-font";
+  src: url("../font/fzlthjw.ttf") format("truetype");
+}
+
+.fzlthjw {
+  font-family: 'fzlthjw-font'
+}
+
+@font-face {
+  font-family: "fzltthjw-font";
+  src: url("../font/fzltthjw.ttf") format("truetype");
+}
+
+.fzltthjw {
+  font-family: 'fzltthjw-font'
+}
+
+@font-face {
+  font-family: "fzltxhjw-font";
+  src: url("../font/fzltxhjw.ttf") format("truetype");
+}
+
+.fzltxhjw {
+  font-family: 'fzltxhjw-font'
+}
+
+@font-face {
+  font-family: "fzltxihjw-font";
+  src: url("../font/fzltxihjw.ttf") format("truetype");
+}
+
+.fzltxihjw {
+  font-family: 'fzltxihjw-font'
+}
+
+@font-face {
+  font-family: "fzltzchjw-font";
+  src: url("../font/fzltzchjw.ttf") format("truetype");
+}
+
+.fzltzchjw {
+  font-family: 'fzltzchjw-font'
+}
+
+@font-face {
+  font-family: "fzltzhjw-font";
+  src: url("../font/fzltzhjw.ttf") format("truetype");
+}
+
+.fzltzhjw {
+  font-family: 'fzltzhjw-font'
+}
+
+@font-face {
+  font-family: "fzltzhunhjw-font";
+  src: url("../font/fzltzhunhjw.ttf") format("truetype");
+}
+
+.fzltzhunhjw {
+  font-family: 'fzltzhunhjw-font'
+}
+
+@font-face {
+  font-family: "fzmiaowujw-font";
+  src: url("../font/fzmiaowujw.ttf") format("truetype");
+}
+
+.fzmiaowujw {
+  font-family: 'fzmiaowujw-font'
+}
+
+@font-face {
+  font-family: "fzmstjw-font";
+  src: url("../font/fzmstjw.ttf") format("truetype");
+}
+
+.fzmstjw {
+  font-family: 'fzmstjw-font'
+}
+
+@font-face {
+  font-family: "fzqdjw-font";
+  src: url("../font/fzqdjw.ttf") format("truetype");
+}
+
+.fzqdjw {
+  font-family: 'fzqdjw-font'
+}
+
+@font-face {
+  font-family: "fzqkbysjw-font";
+  src: url("../font/fzqkbysjw.ttf") format("truetype");
+}
+
+.fzqkbysjw {
+  font-family: 'fzqkbysjw-font'
+}
+
+@font-face {
+  font-family: "fzrbsjw-font";
+  src: url("../font/fzrbsjw.ttf") format("truetype");
+}
+
+.fzrbsjw {
+  font-family: 'fzrbsjw-font'
+}
+
+@font-face {
+  font-family: "fzruisyjw_da-font";
+  src: url("../font/fzruisyjw_da.ttf") format("truetype");
+}
+
+.fzruisyjw_da {
+  font-family: 'fzruisyjw_da-font'
+}
+
+@font-face {
+  font-family: "fzruisyjw_xian-font";
+  src: url("../font/fzruisyjw_xian.ttf") format("truetype");
+}
+
+.fzruisyjw_xian {
+  font-family: 'fzruisyjw_xian-font'
+}
+
+@font-face {
+  font-family: "fzruisyjw_zhong-font";
+  src: url("../font/fzruisyjw_zhong.ttf") format("truetype");
+}
+
+.fzruisyjw_zhong {
+  font-family: 'fzruisyjw_zhong-font'
+}
+
+@font-face {
+  font-family: "fzs3jw-font";
+  src: url("../font/fzs3jw.ttf") format("truetype");
+}
+
+.fzs3jw {
+  font-family: 'fzs3jw-font'
+}
+
+@font-face {
+  font-family: "fzsejw-font";
+  src: url("../font/fzsejw.ttf") format("truetype");
+}
+
+.fzsejw {
+  font-family: 'fzsejw-font'
+}
+
+@font-face {
+  font-family: "fzshangkjw-font";
+  src: url("../font/fzshangkjw.ttf") format("truetype");
+}
+
+.fzshangkjw {
+  font-family: 'fzshangkjw-font'
+}
+
+@font-face {
+  font-family: "fzshengsksjw_cu-font";
+  src: url("../font/fzshengsksjw_cu.ttf") format("truetype");
+}
+
+.fzshengsksjw_cu {
+  font-family: 'fzshengsksjw_cu-font'
+}
+
+@font-face {
+  font-family: "fzshengsksjw_da-font";
+  src: url("../font/fzshengsksjw_da.ttf") format("truetype");
+}
+
+.fzshengsksjw_da {
+  font-family: 'fzshengsksjw_da-font'
+}
+
+@font-face {
+  font-family: "fzshjw-font";
+  src: url("../font/fzshjw.ttf") format("truetype");
+}
+
+.fzshjw {
+  font-family: 'fzshjw-font'
+}
+
+@font-face {
+  font-family: "fzskbxkjw-font";
+  src: url("../font/fzskbxkjw.ttf") format("truetype");
+}
+
+.fzskbxkjw {
+  font-family: 'fzskbxkjw-font'
+}
+
+@font-face {
+  font-family: "fzsyjw-font";
+  src: url("../font/fzsyjw.ttf") format("truetype");
+}
+
+.fzsyjw {
+  font-family: 'fzsyjw-font'
+}
+
+@font-face {
+  font-family: "fzsysjw-font";
+  src: url("../font/fzsysjw.ttf") format("truetype");
+}
+
+.fzsysjw {
+  font-family: 'fzsysjw-font'
+}
+
+@font-face {
+  font-family: "fztcghjw-font";
+  src: url("../font/fztcghjw.ttf") format("truetype");
+}
+
+.fztcghjw {
+  font-family: 'fztcghjw-font'
+}
+
+@font-face {
+  font-family: "fztljw-font";
+  src: url("../font/fztljw.ttf") format("truetype");
+}
+
+.fztljw {
+  font-family: 'fztljw-font'
+}
+
+@font-face {
+  font-family: "fztysjw-font";
+  src: url("../font/fztysjw.ttf") format("truetype");
+}
+
+.fztysjw {
+  font-family: 'fztysjw-font'
+}
+
+@font-face {
+  font-family: "fzxbsjw-font";
+  src: url("../font/fzxbsjw.ttf") format("truetype");
+}
+
+.fzxbsjw {
+  font-family: 'fzxbsjw-font'
+}
+
+@font-face {
+  font-family: "fzxdxjw-font";
+  src: url("../font/fzxdxjw.ttf") format("truetype");
+}
+
+.fzxdxjw {
+  font-family: 'fzxdxjw-font'
+}
+
+@font-face {
+  font-family: "fzxktjw-font";
+  src: url("../font/fzxktjw.ttf") format("truetype");
+}
+
+.fzxktjw {
+  font-family: 'fzxktjw-font'
+}
+
+@font-face {
+  font-family: "fzyansjw_da-font";
+  src: url("../font/fzyansjw_da.ttf") format("truetype");
+}
+
+.fzyansjw_da {
+  font-family: 'fzyansjw_da-font'
+}
+
+@font-face {
+  font-family: "fzyansjw_zhun-font";
+  src: url("../font/fzyansjw_zhun.ttf") format("truetype");
+}
+
+.fzyansjw_zhun {
+  font-family: 'fzyansjw_zhun-font'
+}
+
+@font-face {
+  font-family: "fzyouhjw_503l-font";
+  src: url("../font/fzyouhjw_503l.ttf") format("truetype");
+}
+
+.fzyouhjw_503l {
+  font-family: 'fzyouhjw_503l-font'
+}
+
+@font-face {
+  font-family: "fzyouhjw_509r-font";
+  src: url("../font/fzyouhjw_509r.ttf") format("truetype");
+}
+
+.fzyouhjw_509r {
+  font-family: 'fzyouhjw_509r-font'
+}
+
+@font-face {
+  font-family: "fzyouhjw_513b-font";
+  src: url("../font/fzyouhjw_513b.ttf") format("truetype");
+}
+
+.fzyouhjw_513b {
+  font-family: 'fzyouhjw_513b-font'
+}
+
+@font-face {
+  font-family: "fzytjw-font";
+  src: url("../font/fzytjw.ttf") format("truetype");
+}
+
+.fzytjw {
+  font-family: 'fzytjw-font'
+}
+
+@font-face {
+  font-family: "fzzbhjw-font";
+  src: url("../font/fzzbhjw.ttf") format("truetype");
+}
+
+.fzzbhjw {
+  font-family: 'fzzbhjw-font'
+}
+
+@font-face {
+  font-family: "fzzchjw-font";
+  src: url("../font/fzzchjw.ttf") format("truetype");
+}
+
+.fzzchjw {
+  font-family: 'fzzchjw-font'
+}
+
+@font-face {
+  font-family: "fzzcysjw-font";
+  src: url("../font/fzzcysjw.ttf") format("truetype");
+}
+
+.fzzcysjw {
+  font-family: 'fzzcysjw-font'
+}
+
+@font-face {
+  font-family: "fzzdhjw-font";
+  src: url("../font/fzzdhjw.ttf") format("truetype");
+}
+
+.fzzdhjw {
+  font-family: 'fzzdhjw-font'
+}
+
+@font-face {
+  font-family: "fzzdxjw-font";
+  src: url("../font/fzzdxjw.ttf") format("truetype");
+}
+
+.fzzdxjw {
+  font-family: 'fzzdxjw-font'
+}
+
+@font-face {
+  font-family: "fzzhjw-font";
+  src: url("../font/fzzhjw.ttf") format("truetype");
+}
+
+.fzzhjw {
+  font-family: 'fzzhjw-font'
+}
+
+@font-face {
+  font-family: "fzzj-dyktjw-font";
+  src: url("../font/fzzj-dyktjw.ttf") format("truetype");
+}
+
+.fzzj-dyktjw {
+  font-family: 'fzzj-dyktjw-font'
+}
+
+@font-face {
+  font-family: "fzzj-ltpgljw-font";
+  src: url("../font/fzzj-ltpgljw.ttf") format("truetype");
+}
+
+.fzzj-ltpgljw {
+  font-family: 'fzzj-ltpgljw-font'
+}
+
+@font-face {
+  font-family: "fzzj-ttybjw-font";
+  src: url("../font/fzzj-ttybjw.ttf") format("truetype");
+}
+
+.fzzj-ttybjw {
+  font-family: 'fzzj-ttybjw-font'
+}
+
+@font-face {
+  font-family: "fzzj-xtlejw-font";
+  src: url("../font/fzzj-xtlejw.ttf") format("truetype");
+}
+
+.fzzj-xtlejw {
+  font-family: 'fzzj-xtlejw-font'
+}
+
+@font-face {
+  font-family: "fzzj-zzgxkjw-font";
+  src: url("../font/fzzj-zzgxkjw.ttf") format("truetype");
+}
+
+.fzzj-zzgxkjw {
+  font-family: 'fzzj-zzgxkjw-font'
+}
+
+@font-face {
+  font-family: "fzzxhjw-font";
+  src: url("../font/fzzxhjw.ttf") format("truetype");
+}
+
+.fzzxhjw {
+  font-family: 'fzzxhjw-font'
+}
+
+@font-face {
+  font-family: "fzzyjw-font";
+  src: url("../font/fzzyjw.ttf") format("truetype");
+}
+
+.fzzyjw {
+  font-family: 'fzzyjw-font'
+}
+
+@font-face {
+  font-family: "fzzzhongjw-font";
+  src: url("../font/fzzzhongjw.ttf") format("truetype");
+}
+
+.fzzzhongjw {
+  font-family: 'fzzzhongjw-font'
+}
+
+@font-face {
+  font-family: "fzzzhunhjw-font";
+  src: url("../font/fzzzhunhjw.ttf") format("truetype");
+}
+
+.fzzzhunhjw {
+  font-family: 'fzzzhunhjw-font'
+}

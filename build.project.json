@@ -1,0 +1,8 @@
+{
+  "normal-project": {
+    "path": "demo/normal-project"
+  },
+  "vue-project": {
+    "path": "demo/vue-project"
+  }
+}
