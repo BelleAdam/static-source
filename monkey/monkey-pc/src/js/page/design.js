@@ -1,6 +1,6 @@
 import ajax from 'common/ajax';
 const defaultPic = '//chuantu.xyz/t6/702/1560165444x992245975.png';
-const fileName = '成本图_';
+let fileName = '成本图_';
 let y_index = 1;
 // 图层
 let z_index = 0;
@@ -58,7 +58,6 @@ export default {
                             $('#modlue-type').html(shtml);
                             for (var i = 0; i < persons.length; i++) {
                                 var goodsCover = $('#goodsID' + (i + 1)).find('img')[0];
-                                // that.AutoSize(goodsCover, 140, 140);
                             }
                             break; // 如果只取第一张表，就取消注释这行
                         }
@@ -230,6 +229,8 @@ export default {
     // 设置内容
     setzdTxt: function(data) {
         var that = this;
+        // 设置文件名
+        fileName = data.title;
         // 模板内容
         ajax.get(`/api/v1/html-modlue/?title__eq=${data.title}&status__eq=0`).then(res => {
             if (res.data.data[0]) {
@@ -332,14 +333,11 @@ export default {
     getBase64Image: function(img, width, height) {
         //width、height调用时传入具体像素值，控制大小 ,不传则默认图像大小
         var canvas = document.createElement('canvas');
-
         var ctx = canvas.getContext('2d');
         // 将canvas扩大相应的倍数，css中设置正确的canvas高宽值就可以解决
         var ratio = this.getPixelRatio(ctx);
-
         canvas.width = (width ? width : img.width) * ratio;
         canvas.height = (height ? height : img.height) * ratio;
-
         ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
         var dataURL = canvas.toDataURL();
         return dataURL;
@@ -384,33 +382,6 @@ export default {
             $('.upBtn').click(function() {
                 $('#excel-file').click();
             });
-    },
-    AutoSize(ImgObj, maxWidth, maxHeight) {
-        var ModelW = maxWidth
-        var ModelH = maxHeight
-        var ModelRatio = ModelW / ModelH
-        var ProductW = ImgObj.width
-        var ProductH = ImgObj.height
-        var ProductRatio = ProductW / ProductH
-        var OutputW = ProductW
-        var OutputH = ProductH
-        var MaxIsW = false
-        if (ProductRatio >= ModelRatio) {
-            MaxIsW = true;
-        }
-        if (MaxIsW) {
-            if (ProductW > ModelW) {
-                OutputW = ModelW;
-                OutputH = (ProductH * ModelW) / ProductW;
-            }
-        } else {
-            if (ProductH > ModelH) {
-                OutputW = (ProductW * ModelH) / ProductH;
-                OutputH = ModelH
-            }
-        }
-        ImgObj.height = OutputH;
-        ImgObj.width = OutputW;
     },
     // 模板商品图图层调整
     selectLayer(id) {
